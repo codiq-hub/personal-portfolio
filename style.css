@@ -24,6 +24,8 @@
 
     body{
         background-color: var(--bg) ;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -181,15 +183,18 @@ img{
     padding-right: 50px;
     margin-top: 50px;
     gap: 20px;
+    font-weight: 800;
+    
    
 }
 .bg-same{
     flex: 1;
     background-color: var(--surface);
     color:var(--text-primary);
-    padding: 20px;
+    padding: 35px;
     border-radius: 20px;
-    height: 70px;
+    height: 90px;
+    padding-left: 80px;
      border: 1px solid var(--border);
     
 }
@@ -199,6 +204,7 @@ img{
     padding-left: 20px;
     font-weight: 800;
     margin-top: 250px;
+    height: 80px;
 }
 
 .uses-today{
@@ -217,6 +223,7 @@ img{
     padding-right: 20px;
     grid-template-columns: 1fr 1fr;
     
+    
 }
 
 .html,
@@ -230,9 +237,10 @@ img{
      padding: 15px;
      padding-bottom: 20px;
     border-radius: 15px;
-    height: 70px; 
+    height: 90px; 
     align-items: center;
      border: 1px solid var(--border);
+     padding-left: 50px;
    
 
 }
@@ -255,6 +263,7 @@ img{
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     padding: 10px 20px;
+    
 
 }
 
@@ -264,6 +273,7 @@ img{
     padding: 26px 10px 22px 20px;
     border-radius: 10px;
      border: 1px solid var(--border);
+     
     
 }
 .number{
@@ -367,14 +377,17 @@ img{
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     font-weight: 800;
+    align-items: center;
+    justify-content: center;
      
    
 }
 .expaliner-child{
      background-color: var(--surface);
      color: var(--text-muted);
-     height: 20px; 
+     height: 80px; 
      padding: 30px;
+     margin-bottom: 20px;
      align-items: center;
      justify-content: center;
      border: 1px solid var(--border);
